@@ -1,7 +1,7 @@
-import { generateContact, generateHome, generateMenu, generateNav } from "./nav.js";
+import generateHome from "./home.js";
+import generateNav from "./nav.js";
+import './style.css'
 
 const content = document.querySelector("#content");
-generateHome(content);
 generateNav(content);
-generateMenu(content);
-generateContact(content);
+generateHome(content);

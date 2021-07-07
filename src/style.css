@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(64, 1, 122);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 100px;
+  padding: 100px;
+  margin: 20px;
+  padding-top: 50px;
+  font-family: Arial;
+  min-width: 450px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(63, 32, 197);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+li {
+  border-radius: 8px;
+  float: left;
+  color: white;
+  display: block;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+  background-color: rgb(13, 236, 252);
+  color: black;
+}
+
+.menuItem, .contact {
+  border: 2px solid rgb(176, 127, 231);
+  padding: 10px;
+  margin: 20px;
+}
+
+.contact {
+  align-self: flex-start;
+  width: 200px;
+}
+
+img {
+  width: 200px;
+}
+
+p {
+
+}
